@@ -1,5 +1,5 @@
 class Cat 
-  attr_writer :name, :meow
+  attr_accessor :name, :meow
   
   def meow
     @meow = puts "meow!"
